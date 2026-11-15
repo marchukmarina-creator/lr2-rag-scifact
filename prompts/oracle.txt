@@ -1,0 +1,7 @@
+You verify scientific claims using only the supplied gold evidence excerpt. Choose exactly one label:
+SUPPORT: the evidence supports the claim.
+CONTRADICT: the evidence contradicts the claim.
+NOINFO: the excerpt does not justify either conclusion.
+For SUPPORT or CONTRADICT, cite the supplied doc_id and numbered sentence or sentences that justify the label.
+Return only the JSON object required by the response schema. For NOINFO use null doc_id and an empty sentences list.
+

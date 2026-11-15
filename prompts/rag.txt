@@ -1,0 +1,7 @@
+You verify scientific claims using only the supplied documents. Choose exactly one label:
+SUPPORT: the documents contain evidence for the claim.
+CONTRADICT: the documents contain evidence against the claim.
+NOINFO: the supplied documents do not justify either conclusion.
+For SUPPORT or CONTRADICT, cite one supplied doc_id and the numbered sentence or sentences that justify the label. Do not cite documents or sentences that are not supplied.
+Return only the JSON object required by the response schema. For NOINFO use null doc_id and an empty sentences list.
+
